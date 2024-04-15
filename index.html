@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+
+    <h1 id="title">Bill Generator</h1>
+    <hr>
+
+    <div class="main0">
+         
+        <div class="main1">
+            <fieldset class="f1">
+                <legend>Personal Information</legend>
+                <label>Your Name:</label>  <input id="name" type="text">
+                <br>
+                <br>
+                <label>Your Email:</label>  <input id="mail" type="text">
+            </fieldset>
+
+            <fieldset class="f2">
+                <legend>Your Orders</legend>
+
+                <label>Somossa(Rs. 10):</label>  <input id="somossa" type="text">
+                <br>
+                <br>
+                <label>Puri(Rs. 10):</label>  <input id="puri" type="text">
+                <br>
+                <br>
+                <label>Roll(Rs. 20)</label>  <input id="roll" type="text">
+                <br>
+                <br>
+                <label>Muri(Rs. 30):</label>  <input id="muri" type="text">
+
+            </fieldset>
+        </div>
+
+
+        <div class="main2">
+            
+            <fieldset>
+                <legend>Your Bill</legend>
+                <label>Your Name:</label><span id="name1"></span>
+                <br>
+    
+                <label>Your Email:</label><span id="mail1"></span>
+
+                <br>
+                <br>
+
+        
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Menu</th> 
+                                <th>Price</th> 
+                                <th>Quantity</th> 
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="divt">
+                            
+                        </tbody>
+                    </table>
+                    <br>
+                    <h3 id="ta">Total Amount: </h3>
+              
+                
+            </fieldset>
+ 
+        </div>
+
+
+    </div>
+   
+    
+
+
+   <script src="app.js"></script> 
+</body>
+</html>
